@@ -54,19 +54,11 @@ Download pybluez
 https://pybluez.github.io/
 
 <code> cd
-
 python setup.py install
-  
 sudo hciconfig hci0 up
-
 sudo apt-get install git
-
 git clone https://github.com/switchdoclabs/iBeacon-Scanner-
-
 sudo chown pi iBeacon-Scanner-
-
 sudo chgrp pi iBeacon-Scanner-
-
 cd
-
 sudo python testblescan.py </code>
