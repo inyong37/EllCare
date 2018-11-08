@@ -70,4 +70,4 @@ sudo chgrp pi iBeacon-Scanner-
 
 cd 해당 디렉토리
 
-sudo python testblescan.py ```
+sudo python testblescan.py
