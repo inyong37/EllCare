@@ -53,7 +53,8 @@ Download pybluez
 
 https://pybluez.github.io/
 
-```cd 해당 
+```
+cd 해당 
 
 python setup.py install
 
