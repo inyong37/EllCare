@@ -54,7 +54,7 @@ Download pybluez
 https://pybluez.github.io/
 
 ```
-cd 해당 
+cd 해당 디렉토리
 
 python setup.py install
 
