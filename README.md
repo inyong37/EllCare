@@ -91,6 +91,8 @@ cd ..
 ```
 Install iBeacon-Scanner (https://github.com/switchdoclabs/iBeacon-Scanner-)
 ```
+sudo -s
+
 cd Bluetooth
 
 git clone https://github.com/switchdoclabs/iBeacon-Scanner-
