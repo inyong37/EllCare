@@ -57,7 +57,7 @@ hciconfig hci0 up
 
 mkdir Bluetooth
 ```
-Install pybluez (https://pybluez.github.io/)
+Install pybluez (https://pybluez.github.io/, https://github.com/pybluez/pybluez)
 ```
 sudo -s
 
@@ -73,7 +73,7 @@ python setup.py build
 
 cd ..
 ```
-Install bluepy (https://github.com/IanHarvey/bluepy)
+Install bluepy (https://github.com/IanHarvey/bluepy, https://engineersportal.com/blog/2017/12/31/using-raspberry-pi-hm-10-and-bluepy-to-develop-an-ibeacon-mesh-network-part-1)
 ```
 sudo -s
 
@@ -89,7 +89,7 @@ python setup.py install
 
 cd ..
 ```
-Install iBeacon-Scanner (https://github.com/search?q=pybluez&ref=opensearch)
+Install iBeacon-Scanner (https://github.com/switchdoclabs/iBeacon-Scanner-)
 ```
 cd Bluetooth
 
