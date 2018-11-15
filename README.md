@@ -47,24 +47,19 @@ AT+PWRM0 하면 auto sleep 이고 wake 시킬려면 80자 이상을 보내면 �
 ※ 세팅하고 한번씩 AT+RESET 해주기
 
 ## RPi iBeacon scanner
+Install required library/packages
 ```
 sudo -s
 
-apt-get install python-pip python-bluez libbluetooth-dev libboost-python-dev libboost-thread-dev libglib2.0-dev bluez bluez-hcidump
-```
-
-Download pybluez
-
-https://pybluez.github.io/
-
-```
-sudo -s
-
-apt-get install git build-essential libglib2.0-dev
+apt-get install git libbluetooth-dev libboost-python-dev libboost-thread-dev libglib2.0-dev bluez bluez-hcidump python-bluez build-essential
 
 hciconfig hci0 up
 
 mkdir Bluetooth
+```
+Install pybluez (https://pybluez.github.io/)
+```
+sudo -s
 
 cd Bluetooth
 
@@ -77,6 +72,12 @@ python setup.py install
 python setup.py build
 
 cd ..
+```
+Install bluepy (https://github.com/IanHarvey/bluepy)
+```
+sudo -s
+
+cd Bluetooth
 
 git clone https://github.com/IanHarvey/bluepy.git
 
@@ -87,6 +88,10 @@ python setup.py build
 python setup.py install
 
 cd ..
+```
+Install iBeacon-Scanner (https://github.com/search?q=pybluez&ref=opensearch)
+```
+cd Bluetooth
 
 git clone https://github.com/switchdoclabs/iBeacon-Scanner-
 
@@ -97,4 +102,7 @@ sudo chgrp pi iBeacon-Scanner-
 cd iBeacon-Scanner-
 
 sudo python testblescan.py
+
+cd ..
+```
 
