@@ -54,13 +54,35 @@ Download pybluez
 https://pybluez.github.io/
 
 ```
-cd 해당 디렉토리
+sudo -s
+
+apt-get install git build-essential libglib2.0-dev
+
+hciconfig hci0 up
+
+mkdir Bluetooth
+
+cd Bluetooth
+
+git clone https://github.com/pybluez/pybluez
+
+cd pybluez
 
 python setup.py install
 
-sudo hciconfig hci0 up
+python setup.py build
 
-sudo apt-get install git
+cd ..
+
+git clone https://github.com/IanHarvey/bluepy.git
+
+cd bluepy
+
+python setup.py build
+
+python setup.py install
+
+cd ..
 
 git clone https://github.com/switchdoclabs/iBeacon-Scanner-
 
@@ -68,6 +90,9 @@ sudo chown pi iBeacon-Scanner-
 
 sudo chgrp pi iBeacon-Scanner-
 
-cd 해당 디렉토리
+cd iBeacon-Scanner-
 
 sudo python testblescan.py
+
+cd ..
+
