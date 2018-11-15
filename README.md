@@ -81,7 +81,7 @@ Install bluepy
 
 https://github.com/IanHarvey/bluepy
 
-https://engineersportal.com/blog/2017/12/31/using-raspberry-pi-hm-10-and-bluepy-to-develop-an-ibeacon-mesh-network-part-1)
+https://engineersportal.com/blog/2017/12/31/using-raspberry-pi-hm-10-and-bluepy-to-develop-an-ibeacon-mesh-network-part-1
 ```
 sudo -s
 
