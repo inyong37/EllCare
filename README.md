@@ -77,6 +77,5 @@ sudo chgrp pi iBeacon-Scanner-
 Test code
 ```
 cd iBeacon-Scanner-
-sudo python testblescan.py
+python testblescan.py
 ```
-
