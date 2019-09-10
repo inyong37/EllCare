@@ -1,7 +1,7 @@
 # EllCare
-Elder Care System
+## Elder Care System
+Summer, 2017
 
-2017 Summer
 ## iBeacon (Bluetooth Low Energy)
 ### 1. Noraml HM-10
 ```
