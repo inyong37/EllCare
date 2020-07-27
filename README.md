@@ -1,5 +1,8 @@
 # EllCare
+
 ## Elder Care System
+
+### Date
 Summer, 2017
 
 ## iBeacon (Bluetooth Low Energy)
